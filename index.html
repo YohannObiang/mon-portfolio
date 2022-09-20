@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Yohann Obiang</title>
-  <meta content="" name="description">
+  <title>Yohann Obiang - Front end developper & UX/UI designer</title>
+  <meta content="Web interface conceptor and developer based in Port-gentil, Ogooue-maritime, Gabon" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -26,89 +26,270 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="https://kit.fontawesome.com/6a86d5d129.js" crossorigin="anonymous"></script>
   <!-- =======================================================
   * Template Name: Personal - v4.8.0
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+    var arrLang = {
+      'en': {
+        'home': 'Home',
+        'services': 'Services',
+        'portfolio': 'Portfolio',
+        'about': 'About',
+        'contact': 'Contact',
+        'job': 'Front-end developer & UI/UX Designer',
+        'Learn more about me': 'Learn more about me',
+        'intro': 'I’m a Front-End Developer based in Port-gentil, Gabon and passionnated for different UI/UX trends in animations and styles.',
+        'birthday': 'Birthday:',
+        'Website': 'Website:',
+        'birthdate': '21 October 1997',
+        'Phone': 'Phone:',
+        'City': 'Location:',
+        'outro': 'Well-organised person, problem solver, independent employee with high attention to detail. I like soccer, online videogame, and outdoor activities with friends and relatives. Interested in the entire frontend part of web platform and working on ambitious projects with positive people.',
+        'Available': 'Available',
+        'Happy Clients': 'Happy Clients',
+        'Projects': 'Projects',
+        'Hours Of Support': 'Hours Of Support',
+        'Awards': 'Awards',
+        'Skills': 'Skills',
+        'Interests': 'Interests',
+        'New technologies': 'New technologies',
+        'Video games': 'Video games',
+        'Latin music': 'Latin music',
+        'Travel': 'Travel',
+        'Science': 'Science',
+        'Soccer': 'Soccer',
+        'Anime': 'Anime',
+        'Basket-ball': 'Basket-ball',
+        'Website design': 'Website design',
+        'Mobile & web apps design': 'Mobile & web apps design',
+        'WordPress website': 'WordPress website',
+        'Website graphical integration': 'Website graphical integration',
+        'Web apps graphical integration': 'Web apps graphical integration',
+        'PWA graphical integration': 'PWA graphical integration',
+        'Website design intro': 'Wireframes and mockups of the different pages of a website',
+        'Mobile & web apps design intro': 'Userflow, wireframes and protoypes of mobile and web applications following the need of client',
+        'WordPress website intro': 'All types of website that are possible to be made through wordpress and other CMS',
+        'Website graphical integration intro': 'Graphical integration of a website using HTML, CSS, JS and their frameworks following a given mockup',
+        'Web apps graphical integration intro': 'Graphical integration of a web application using React JS and following a given prototype',
+        'PWA graphical integration intro': 'Graphical integration of a progressive web application following a given prototype',
+        'My Services': 'My Services',
+        'All': 'All',
+        'My Works': 'My Works',
+        'Contact Me': 'Contact Me',
+        'My Address': 'My Address',
+        'Social Profiles': 'Social Profiles',
+        'Email Me': 'Email Me',
+        'Call Me': 'Call Me',
+        'Send Message': 'Send Message',
+      },
+      'fr': {
+        'home': 'Accueil',
+        'services': 'Services',
+        'portfolio': 'Portfolio',
+        'about': 'A propos',
+        'contact': 'Contact',
+        'job': 'Développeur front-end & UI/UX Designer',
+        'Learn more about me': 'En savoir plus sur moi',
+        'intro': 'Je suis un Développeur Front-End basé à Port-gentil, Gabon et passionné par les différentes tendances UI/UX dans les animations et les styles.',
+        'birthday': 'Anniversaire:',
+        'Website': 'Site web:',
+        'birthdate': '21 Octobre 1997',
+        'Phone': 'Téléphone:',
+        'City': 'Localisation:',
+        'outro': 'Personne bien organisée, résolveur de problèmes, employé indépendant avec une grande attention aux détails. Passioné de football, des jeux vidéo en ligne et des activités de plein air avec des amis et des parents. Intéressé par toute la partie frontend de la plateforme web et travaillant sur des projets ambitieux avec des personnes positives.',
+        'Available': 'Disponible',
+        'Happy Clients': 'Clients satisfaits',
+        'Projects': 'Projets',
+        'Hours Of Support': 'Support Client',
+        'Awards': 'Récompenses',
+        'Skills': 'Compétences',
+        'Interests': 'Centre d\'interet',
+        'New technologies': 'Technologie',
+        'Video games': 'Jeux vidéo',
+        'Latin music': 'Musique Latine',
+        'Travel': 'Voyage',
+        'Science': 'Science',
+        'Soccer': 'Football',
+        'Anime': 'Anime',
+        'Basket-ball': 'Basketball',
+        'Website design': 'Design de site Web',
+        'Mobile & web apps design': 'Design d\'applications mobiles et web',
+        'WordPress website': 'Site web wordPress',
+        'Website graphical integration': 'Intégration graphique du site Web',
+        'Web apps graphical integration': 'Intégration graphique des applications Web',
+        'PWA graphical integration': 'Intégration graphique PWA',
+        'Website design intro': 'Wireframes et maquettes des différentes pages d\'un site web',
+        'Mobile & web apps design intro': 'User Flow, wireframes et prototypes d\'applications mobiles et web suivant le besoin du client',
+        'WordPress website intro': 'Tous les types de sites Web pouvant être créés via wordpress et autres CMS',
+        'Website graphical integration intro': 'Intégration graphique d\'un site web en HTML, CSS, JS et leurs frameworks suivant une maquette donnée',
+        'Web apps graphical integration intro': 'Intégration graphique d\'une application web en React JS et suivant un prototype donné',
+        'PWA graphical integration intro': 'Intégration graphique d\'une application web progressive suivant un prototype donné',
+        'My Services': 'Mes Services',
+        'All': 'Tous',
+        'My Works': 'Mes Travaux',
+        'Contact Me': 'Contactez Moi',
+        'My Address': 'Mon adresse',
+        'Social Profiles': 'Mes réseaux sociaux',
+        'Email Me': 'Envoyez un mail',
+        'Call Me': 'Appelez moi',
+        'Send Message': 'Envoyer un message',
+        'name': 'Votre nom'
+
+
+      },
+      'es': {
+        'home': 'Hogar',
+        'services': 'Servicios',
+        'portfolio': 'Cartera',
+        'about': 'Acerca de',
+        'contact': 'Contacto',
+        'job': 'Desarrollador front-end y diseñador de UI/UX',
+        'Learn more about me': 'Aprende más sobre mí',
+        'intro': 'Soy un desarrollador front-end que vive en Port-gentil, Gabón y me apasionan las diferentes tendencias de UI/UX en animaciones y estilos.',
+        'birthday': 'Cumpleaños:',
+        'Website': 'Sitio web:',
+        'birthdate': '21 de octubre de 1997',
+        'Phone': 'Teléfono:',
+        'City': 'Ubicación:',
+        'outro': 'Persona bien organizada, solucionador de problemas, empleado independiente con gran atención a los detalles. Me gusta el fútbol, ​​los videojuegos en línea y las actividades al aire libre con amigos y familiares. Interesado en toda la parte frontal de la plataforma web y trabajando en proyectos ambiciosos con personas positivas.',
+        'Available': 'disponible',
+        'Happy Clients': 'Clientes Felices',
+        'Projects': 'Proyectos',
+        'Hours Of Support': 'Horas de soporte',
+        'Awards': 'Premios',
+        'Skills': 'Habilidades',
+        'Interests': 'Intereses',
+        'New technologies': 'Nuevas tecnologías',
+        'Video games': 'Videojuegos',
+        'Latin music': 'música latina',
+        'Travel': 'Viaje',
+        'Science': 'Ciencia',
+        'Soccer': 'Fútbol',
+        'Anime': 'Animé',
+        'Basket-ball': 'Baloncesto',
+        'Website design': 'Diseño de sitio web',
+        'Mobile & web apps design': 'Diseño de aplicaciones móviles y web',
+        'Sitio web de WordPress': 'Sitio web de WordPress',
+        'Website graphical integration': 'Integración gráfica del sitio web',
+        'Web apps graphical integration': 'Integración gráfica de aplicaciones web',
+        'PWA graphical integration': 'Integración gráfica PWA',
+        'Website design intro': 'Wireframes y maquetas de las diferentes páginas de un sitio web',
+        'Mobile & web apps design introIntroducción al diseño de aplicaciones móviles y web': 'Flujo de usuarios, wireframes y prototipos de aplicaciones móviles y web según las necesidades del cliente',
+        'WordPress website intro': 'Todos los tipos de sitios web que se pueden hacer a través de wordpress y otros CMS',
+        'Website graphical integration intro': 'Integración gráfica de un sitio web utilizando HTML, CSS, JS y sus marcos siguiendo una maqueta dada',
+        'Web apps graphical integration intro': 'Integración gráfica de una aplicación web usando React JS y siguiendo un prototipo dado',
+        'PWA graphical integration intro': 'Integración gráfica de una aplicación web progresiva siguiendo un prototipo dado',
+        'My Services': 'Mis Servicios',
+        'All': 'todo',
+        'My Works': 'Mis Obras',
+        'Contact Me': 'Contáctame',
+        'My Address': 'Mi dirección',
+        'Social Profiles': 'Perfiles sociales',
+        'Email Me': 'Enviarme un correo electrónico',
+        'Call Me': 'Llámame',
+        'Send Message': 'Enviar mensaje',
+      },
+    };
+
+    // Process translation
+    $(function() {
+      $('.translate').click(function() {
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function(index, item) {
+          $(this).text(arrLang[lang][$(this).attr('key')]);
+        });
+      });
+    });
+  </script>
 </head>
 
 <body>
-
+  
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="container">
+    <div class="lang container">
 
       <h1><a href="index.html">Yohann Obiang</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>Web Designer</span></h2>
+      <!-- <a href="index.html" class="lang mr-auto"><img src="assets/img/logo.png" alt="" class="lang img-fluid"></a> -->
+      <h2 key="job" class="lang lang">Front-end developer & UI/UX Designer<span></span></h2>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="lang navbar">
         <ul>
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#services">Services</a></li>
-          <!-- <li><a class="nav-link" href="#resume">Resume</a></li> -->
-          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a class="lang nav-link active lang" href="#header" key="home">Home</a></li>
+          <li><a class="lang nav-link lang" href="#services">Services</a></li>
+          <!-- <li><a class="lang nav-link" href="#resume">Resume</a></li> -->
+          <li><a class="lang nav-link lang" href="#portfolio">Portfolio</a></li>
+          <li><a class="lang nav-link lang" href="#about" key="about">About</a></li>
+          <li><a class="lang nav-link lang" href="#contact" key="contact">Contact</a></li>
+          <div class="language" language>
+            <button id="fr" class="lang translate language-btn">Fr</button>
+            <button id="es" class="lang translate language-btn">Es</button>
+            <button id="en" class="lang translate language-btn">En</button>
+          </div>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="lang bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <div class="social-links">
-        <a href="https://twitter.com/YohannObiang" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://www.facebook.com/yohannobiang/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/yohanndian/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/yohann-obiang-691a5521a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <div key="" class="lang social-links">
+        <a href="https://twitter.com/YohannObiang" key="" class="lang twitter"><i key="" class="lang bi bi-twitter"></i></a>
+        <a href="https://www.facebook.com/yohannobiang/" key="" class="lang facebook"><i key="" class="lang bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/yohanndian/" key="" class="lang instagram"><i key="" class="lang bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/yohann-obiang-691a5521a/" key="" class="lang linkedin"><i key="" class="lang bi bi-linkedin"></i></a>
       </div>
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= About Section ======= -->
-  <section id="about" class="about">
+  <section id="about" key="" class="lang about">
 
     <!-- ======= About Me ======= -->
-    <div class="about-me container">
+    <div key="" class="lang about-me container">
 
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Learn more about me</p>
+      <div key="" class="lang section-title">
+        <h2 key="about" key="" class="lang lang">About</h2>
+        <p key="Learn more about me" key="" class="lang lang">Learn more about me</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+      <div key="" class="lang row">
+        <div key="" class="lang col-lg-4 seize" data-aos="fade-right">
+          <img src="assets/img/me.png" key="" class="lang img-fluid" alt="">
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Front-end developer &amp; UI/UX Designer</h3>
-          <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+        <div key="" class="lang col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3  class="lang" key="job" >Front-end developer &amp; UI/UX Designer</h3>
+          <p  class="lang fst-italic lang" key="intro">
+            I’m a Front-End Developer based in Port-gentil, Gabon and passionnated for different UI/UX trends
+             in animations and styles.
           </p>
-          <div class="row">
-            <div class="col-lg-6">
+          <div key="" class="lang row">
+            <div key="" class="lang col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>21 October 1997</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.yohannobiang.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+241 (0)77 48 22 53</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Port-gentil, Gabon</span></li>
+                <li><i class="lang bi bi-chevron-right"></i> <strong key="birthday" class="lang">Birthday:</strong> <span  key="birthdate" class="lang">21 October 1997</span></li>
+                <!-- <li><i class="lang bi bi-chevron-right"></i> <strong key="Website" class="lang">Website:</strong> <span>www.yohannobiang.com</span></li> -->
+                <li><i key="" class="lang bi bi-chevron-right"></i> <strong  key="Phone" class="lang">Phone:</strong> <span>+241 (0)77 48 22 53</span></li>
+                <li><i key="" class="lang bi bi-chevron-right"></i> <strong  key="City" class="lang">Location:</strong> <span>Port-gentil, Gabon</span></li>
               </ul>
             </div>
-            <div class="col-lg-6">
+            <div key="" class="lang col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>yohanndian@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> 
+                <li><i key="" class="lang bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                <li><i key="" class="lang bi bi-chevron-right"></i> <strong>Email:</strong> <span>contact@yohannobiang.com</span></li>
+                <li><i key="" class="lang bi bi-chevron-right"></i> <strong>Freelance:</strong> <span  key="Available" class="lang">Available</span></li> 
               </ul>
             </div>
           </div>
-          <p>
-            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+          <p key="outro" class="lang">
+            Well-organised person, problem solver, independent employee with high attention to detail. 
+            I like soccer, online videogame, and outdoor activities with friends and relatives.
+            Interested in the entire frontend part of web platform and working on ambitious projects with positive people.
           </p>
         </div>
       </div>
@@ -116,39 +297,39 @@
     </div><!-- End About Me -->
 
     <!-- ======= Counts ======= -->
-    <div class="counts container">
+    <div key="" class="lang counts container">
 
-      <div class="row">
+      <div key="" class="lang row">
 
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
+        <div key="" class="lang col-lg-3 col-md-6">
+          <div key="" class="lang count-box">
+            <i key="" class="lang bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" key="" class="lang purecounter"></span>
+            <p key="Happy Clients" class="lang">Happy Clients</p>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
+        <div key="" class="lang col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div key="" class="lang count-box">
+            <i key="" class="lang bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" key="" class="lang purecounter"></span>
+            <p key="Projects" class="lang">Projects</p>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
+        <div key="" class="lang col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div key="" class="lang count-box">
+            <i key="" class="lang bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" key="" class="lang purecounter"></span>
+            <p key="Hours Of Support" class="lang">Hours Of Support</p>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
+        <div key="" class="lang col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div key="" class="lang count-box">
+            <i key="" class="lang bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" key="" class="lang purecounter"></span>
+            <p key="Awards" class="lang">Awards</p>
           </div>
         </div>
 
@@ -157,59 +338,59 @@
     </div><!-- End Counts -->
 
     <!-- ======= Skills  ======= -->
-    <div class="skills container">
+    <div key="" class="lang skills container">
 
-      <div class="section-title">
-        <h2>Skills</h2>
+      <div key="" class="lang section-title">
+        <h2 key="Skills" class="lang">Skills</h2>
       </div>
 
-      <div class="row skills-content">
+      <div key="" class="lang row skills-content">
 
-        <div class="col-lg-6">
+        <div key="" class="lang col-lg-6">
 
-          <div class="progress">
-            <span class="skill">HTML <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          <div key="" class="lang progress">
+            <span key="" class="lang skill">HTML <i key="" class="lang val">100%</i></span>
+            <div key="" class="lang progress-bar-wrap">
+              <div key="" class="lang progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
-          <div class="progress">
-            <span class="skill">CSS <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          <div key="" class="lang progress">
+            <span key="" class="lang skill">CSS <i key="" class="lang val">90%</i></span>
+            <div key="" class="lang progress-bar-wrap">
+              <div key="" class="lang progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          <div key="" class="lang progress">
+            <span key="" class="lang skill">JavaScript <i key="" class="lang val">75%</i></span>
+            <div key="" class="lang progress-bar-wrap">
+              <div key="" class="lang progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
         </div>
 
-        <div class="col-lg-6">
+        <div key="" class="lang col-lg-6">
 
-          <div class="progress">
-            <span class="skill">React js <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+          <div key="" class="lang progress">
+            <span key="" class="lang skill">React js <i key="" class="lang val">60%</i></span>
+            <div key="" class="lang progress-bar-wrap">
+              <div key="" class="lang progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
-          <div class="progress">
-            <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          <div key="" class="lang progress">
+            <span key="" class="lang skill">WordPress/CMS <i key="" class="lang val">90%</i></span>
+            <div key="" class="lang progress-bar-wrap">
+              <div key="" class="lang progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
-          <div class="progress">
-            <span class="skill">Photoshop <i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+          <div key="" class="lang progress">
+            <span key="" class="lang skill">Photoshop <i key="" class="lang val">55%</i></span>
+            <div key="" class="lang progress-bar-wrap">
+              <div key="" class="lang progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
@@ -220,83 +401,84 @@
     </div><!-- End Skills -->
 
     <!-- ======= Interests ======= -->
-    <div class="interests container">
+    <div key="" class="lang interests container">
 
-      <div class="section-title">
-        <h2>Interests</h2>
+      <div key="" class="lang section-title">
+        <h2 key="Interests" class="lang">Interests</h2>
       </div>
 
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-store-line" style="color: #ffbb2c;"></i>
+      <div key="" class="lang row">
+        <!-- <div key="" class="lang col-lg-3 col-md-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-store-line" style="color: #ffbb2c;"></i>
             <h3>Lorem Ipsum</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-bar-chart-box-line" style="color: #5578ff;"></i>
             <h3>Dolor Sitema</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-calendar-todo-line" style="color: #e80368;"></i>
             <h3>Sed perspiciatis</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-paint-brush-line" style="color: #e361ff;"></i>
             <h3>Magni Dolores</h3>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Nemo Enim</h3>
+        </div>-->
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-fingerprint-line" style="color: #29cc61;"></i>
+            <h3 key="New technologies" class="lang">New technologies</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Eiusmod Tempor</h3>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-price-tag-2-line" style="color: #4233ff;"></i>
+            <h3 key="Video games" class="lang">Video games</h3>
+          </div>
+        </div> 
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-anchor-line" style="color: #b2904f;"></i>
+            <h3 key="Soccer" class="lang">Soccer</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Midela Teren</h3>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-disc-line" style="color: #b20969;"></i>
+            <h3 key="Latin music" class="lang">Latin music</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Pira Neve</h3>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-base-station-line" style="color: #ff5828;"></i>
+            <h3 key="Travel" class="lang">Travel</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Dirada Pack</h3>
+        
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-database-2-line" style="color: #47aeff;"></i>
+            <h3 key="Science" class="lang">Science</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Moton Ideal</h3>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-gradienter-line" style="color: #ffa76e;"></i>
+            <h3 key="Anime" class="lang">Anime</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Verdo Park</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Flavor Nivelanda</h3>
+        <div key="" class="lang col-lg-3 col-md-4 mt-4">
+          <div key="" class="lang icon-box">
+            <i key="" class="lang ri-file-list-3-line" style="color: #11dbcf;"></i>
+            <h3 key="Basket-ball" class="lang">Basket-ball</h3>
           </div>
         </div>
       </div>
@@ -304,85 +486,90 @@
     </div><!-- End Interests -->
 
     <!-- ======= Testimonials ======= -->
-    <div class="testimonials container">
+    <!-- <div key="" class="lang testimonials container"> -->
 
-      <div class="section-title">
+      <!-- <div key="" class="lang section-title">
         <h2>Testimonials</h2>
-      </div>
+      </div> -->
 
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
+      <div key="" class="lang testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div key="" class="lang swiper-wrapper">
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
+          <!-- <div key="" class="lang swiper-slide">
+            <div key="" class="lang testimonial-item">
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i key="" class="lang bx bxs-quote-alt-left quote-icon-left"></i>
                 Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i key="" class="lang bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <img src="assets/img/testimonials/testimonials-1.jpg" key="" class="lang testimonial-img" alt="">
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div>  -->
+          <!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
+          <!-- <div key="" class="lang swiper-slide">
+            <div key="" class="lang testimonial-item">
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i key="" class="lang bx bxs-quote-alt-left quote-icon-left"></i>
                 Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i key="" class="lang bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <img src="assets/img/testimonials/testimonials-2.jpg" key="" class="lang testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> -->
+          <!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
+          <!-- <div key="" class="lang swiper-slide">
+            <div key="" class="lang testimonial-item">
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i key="" class="lang bx bxs-quote-alt-left quote-icon-left"></i>
                 Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i key="" class="lang bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <img src="assets/img/testimonials/testimonials-3.jpg" key="" class="lang testimonial-img" alt="">
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> -->
+          <!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
+          <!-- <div key="" class="lang swiper-slide">
+            <div key="" class="lang testimonial-item">
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i key="" class="lang bx bxs-quote-alt-left quote-icon-left"></i>
                 Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i key="" class="lang bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <img src="assets/img/testimonials/testimonials-4.jpg" key="" class="lang testimonial-img" alt="">
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> -->
+          <!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
+          <!-- <div key="" class="lang swiper-slide">
+            <div key="" class="lang testimonial-item">
               <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                <i key="" class="lang bx bxs-quote-alt-left quote-icon-left"></i>
                 Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                <i key="" class="lang bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <img src="assets/img/testimonials/testimonials-5.jpg" key="" class="lang testimonial-img" alt="">
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> -->
+          <!-- End testimonial item -->
 
         </div>
-        <div class="swiper-pagination"></div>
+        <div key="" class="lang swiper-pagination"></div>
       </div>
 
-      <div class="owl-carousel testimonials-carousel">
+      <div key="" class="lang owl-carousel testimonials-carousel">
 
       </div>
 
@@ -391,18 +578,18 @@
   </section><!-- End About Section -->
 
   <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
+  <section id="resume" key="" class="lang resume">
+    <div key="" class="lang container">
 
-      <div class="section-title">
+      <div key="" class="lang section-title">
         <h2>Resume</h2>
         <p>Check My Resume</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h3 class="resume-title">Sumary</h3>
-          <div class="resume-item pb-0">
+      <div key="" class="lang row">
+        <div key="" class="lang col-lg-6">
+          <h3 key="" class="lang resume-title">Sumary</h3>
+          <div key="" class="lang resume-item pb-0">
             <h4>Alice Barkley</h4>
             <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
             <p>
@@ -414,23 +601,23 @@
             </p>
           </div>
 
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
+          <h3 key="" class="lang resume-title">Education</h3>
+          <div key="" class="lang resume-item">
             <h4>Master of Fine Arts &amp; Graphic Design</h4>
             <h5>2015 - 2016</h5>
             <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
             <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
           </div>
-          <div class="resume-item">
+          <div key="" class="lang resume-item">
             <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
             <h5>2010 - 2014</h5>
             <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
             <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
           </div>
         </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
+        <div key="" class="lang col-lg-6">
+          <h3 key="" class="lang resume-title">Professional Experience</h3>
+          <div key="" class="lang resume-item">
             <h4>Senior graphic design specialist</h4>
             <h5>2019 - Present</h5>
             <p><em>Experion, New York, NY </em></p>
@@ -443,7 +630,7 @@
             </ul>
             </p>
           </div>
-          <div class="resume-item">
+          <div key="" class="lang resume-item">
             <h4>Graphic design specialist</h4>
             <h5>2017 - 2018</h5>
             <p><em>Stepping Stone Advertising, New York, NY</em></p>
@@ -463,64 +650,64 @@
   </section><!-- End Resume Section -->
 
   <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
-    <div class="container">
+  <section id="services" key="" class="lang services">
+    <div key="" class="lang container">
 
-      <div class="section-title">
+      <div key="" class="lang section-title">
         <h2>Services</h2>
-        <p>My Services</p>
+        <p key="My Services" class="lang">My Services</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="">Website design</a></h4>
+      <div key="" class="lang row">
+        <div key="" class="lang col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div key="" class="lang icon-box">
+            <div key="" class="lang icon"><i key="" class="lang bx bxl-dribbble"></i></div>
+            <h4 ><a href="" key="Website design" class="lang">Website design</a></h4>
             <br>
-            <p>Wireframes and mockups of the different pages of a website </p>
+            <p key="Website design intro" class="lang">Wireframes and mockups of the different pages of a website </p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Web apps design</a></h4>
+        <div key="" class="lang col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div key="" class="lang icon-box">
+            <div key="" class="lang icon"><i key="" class="lang bx bx-file"></i></div>
+            <h4><a href="" key="Mobile & web apps design" class="lang">Mobile & web apps design</a></h4>
             <br>
-            <p>Userflow, wireframes and protoypes of an web application following the need of client</p>
+            <p key="Mobile & web apps design intro" class="lang">Userflow, wireframes and protoypes of mobile and web applications following the need of client</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Mobile apps design</a></h4>
+        <div key="" class="lang col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div key="" class="lang icon-box">
+            <div key="" class="lang icon"><i key="" class="lang fa-brands fa-wordpress"></i></div>
+            <h4><a href="" key="WordPress website" class="lang">WordPress website</a></h4>
             <br>
-            <p>Userflow, wireframes and protoypes of a mobile application following the need of client</p>
+            <p key="WordPress website intro" class="lang">All types of website that are possible to be made through wordpress and other CMS </p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Website graphical integration</a></h4>
-            <p>Graphical integration of a website using HTML, CSS and JS following a given mockup</p>
+        <div key="" class="lang col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div key="" class="lang icon-box">
+            <div key="" class="lang icon"><i key="" class="lang fa-solid fa-code fa-2xs"></i></div>
+            <h4><a href="" key="Website graphical integration" class="lang">Website graphical integration</a></h4>
+            <p key="Website graphical integration intro" class="lang">Graphical integration of a website using HTML, CSS, JS and their frameworks following a given mockup</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-slideshow"></i></div>
-            <h4><a href="">Web apps graphical integration</a></h4>
-            <p>Graphical integration of a web application using React JS and following a given prototype</p>
+        <div key="" class="lang col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div key="" class="lang icon-box">
+            <div key="" class="lang icon"><i key="" class="lang fa-brands fa-react"></i></div>
+            <h4><a href="" key="Web apps graphical integration" class="lang">Web apps graphical integration</a></h4>
+            <p key="Web apps graphical integration intro" class="lang">Graphical integration of a web application using React JS and following a given prototype</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-arch"></i></div>
-            <h4><a href="">PWA graphical integration</a></h4>
+        <div key="" class="lang col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div key="" class="lang icon-box">
+            <div key="" class="lang icon"><i key="" class="lang bx bx-arch"></i></div>
+            <h4><a href="" key="PWA graphical integration" class="lang">PWA graphical integration</a></h4>
             <br>
-            <p>Graphical integration of a progressive web application following a given prototype</p>
+            <p key="PWA graphical integration intro" class="lang">Graphical integration of a progressive web application following a given prototype</p>
           </div>
         </div>
 
@@ -530,148 +717,148 @@
   </section><!-- End Services Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
+  <section id="portfolio" key="" class="lang portfolio">
+    <div key="" class="lang container">
 
-      <div class="section-title">
+      <div key="" class="lang section-title">
         <h2>Portfolio</h2>
-        <p>My Works</p>
+        <p key="My Works" class="lang">My Works</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
+      <div key="" class="lang row">
+        <div key="" class="lang col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-web">Web</li>
-            <li data-filter=".filter-card">Design</li>
+            <li data-filter="*" class="lang filter-active" key="All">All</li>
+            <li data-filter=".filter-app" key="" class="lang">App</li>
+            <li data-filter=".filter-web" key="" class="lang">Web</li>
+            <li data-filter=".filter-card" key="" class="lang">Design</li>
           </ul>
         </div>
       </div>
 
-      <div class="row portfolio-container">
+      <div key="" class="lang row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-app">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/form1.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Student registering form</h4>
               <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/form1.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Student registering form"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://inscription.vercel.app/"><i key="" class="lang bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-web">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/synergy1.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Synergy Care Project</h4>
               <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/synergy1.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Synergy Care Project"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://yohannobiang.github.io/synergycare/"><i key="" class="lang bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-app">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/g9p.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Gabon 9 Province</h4>
               <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/g9p.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Gabon 9 Province"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://frontend-gabon9provinces.vercel.app/"><i key="" class="lang bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-app">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/sport1.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Sport shoes store</h4>
               <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/sport1.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Sport shoes store"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://citysportfrontend.vercel.app/"><i key="" class="lang bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-app">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/dahsboard.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Dashboard sport shoes store</h4>
+              <p>App</p>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/dahsboard.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Dashboard sport shoes store"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://inscription.vercel.app/"><i key="" class="lang bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-card">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/g9p mobile.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Gabon 9 provinces mobile</h4>
+              <p>Design</p>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/g9p mobile.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Gabon 9 provinces mobile"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://www.figma.com/proto/TxG7T9YPTe1oMHW866fzWC/Untitled?node-id=0%3A1"><i key="" class="lang bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-card">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/music app.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Music app</h4>
+              <p>Design</p>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/music app.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Music app"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://www.figma.com/proto/BmyUgKfX8FNcFBTdJWMrAV/Untitled?node-id=0%3A1"><i key="" class="lang bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-card">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/apresbac.PNG" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Apresbac.com Project</h4>
+              <p>Design</p>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Apresbac.com Project"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://www.figma.com/proto/vhrugooT56VvMo9MqWRmcm/apresBac.com?node-id=0%3A1"><i key="" class="lang bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div key="" class="lang col-lg-4 col-md-6 portfolio-item filter-web">
+          <div key="" class="lang portfolio-wrap">
+            <img src="assets/img/portfolio/gildas pambo project.png" key="" class="lang img-fluid" alt="">
+            <div key="" class="lang portfolio-info">
+              <h4>Gildas Pambo's portfolio</h4>
               <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              <div key="" class="lang portfolio-links">
+                <a href="assets/img/portfolio/gildas pambo project.png" data-gallery="portfolioGallery" key="" class="lang portfolio-lightbox" title="Web 3"><i key="" class="lang bx bx-plus"></i></a>
+                <a href="https://yohannobiang.github.io/gildas-portfolio/"><i key="" class="lang bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -683,74 +870,77 @@
   </section><!-- End Portfolio Section -->
 
   <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
+  <section id="contact" key="" class="lang contact">
+    <div key="" class="lang container">
 
-      <div class="section-title">
+      <div key="" class="lang section-title">
         <h2>Contact</h2>
-        <p>Contact Me</p>
+        <p key="Contact Me" class="lang">Contact Me</p>
       </div>
 
-      <div class="row mt-2">
+      <div key="" class="lang row mt-2">
 
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
+        <div key="" class="lang col-md-6 d-flex align-items-stretch">
+          <div key="" class="lang info-box">
+            <i key="" class="lang bx bx-map"></i>
+            <h3 key="My Address" class="lang">My Address</h3>
             <p>PG1, Port-gentil, Gabon</p>
           </div>
         </div>
 
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://twitter.com/YohannObiang" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/yohannobiang/" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/yohanndian/" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/yohann-obiang-691a5521a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <div key="" class="lang col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div key="" class="lang info-box">
+            <i key="" class="lang bx bx-share-alt"></i>
+            <h3 key="Social Profiles" class="lang">Social Profiles</h3>
+            <div key="" class="lang social-links">
+              <a href="https://twitter.com/YohannObiang" key="" class="lang twitter"><i key="" class="lang bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/yohannobiang/" key="" class="lang facebook"><i key="" class="lang bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/yohanndian/" key="" class="lang instagram"><i key="" class="lang bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/yohann-obiang-691a5521a/" key="" class="lang linkedin"><i key="" class="lang bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>yohanndian@gmail.com</p>
+        <a href="mailto:yohanndian@gmail.com">
+        <div key="" class="lang col-md-6 mt-4 d-flex align-items-stretch">
+          <div key="" class="lang info-box">
+            <i key="" class="lang bx bx-envelope"></i>
+            <h3 key="Email Me" class="lang">Email Me</h3>
+            <p>contact@yohannobiang.com</p>
           </div>
         </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
+        </a>
+        <a href="tel://0024177482253">
+        <div key="" class="lang col-md-6 mt-4 d-flex align-items-stretch" href="tel://1234567920">
+          <div key="" class="lang info-box">
+            <i key="" class="lang bx bx-phone-call"></i>
+            <h3 key="Call Me" class="lang">Call Me</h3>
             <p>+241 (0)77 48 22 53</p>
           </div>
         </div>
+        </a>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+      <form action="forms/contact.php" method="post" role="form" key="" class="lang php-email-form mt-4">
+        <div key="" class="lang row">
+          <div key="" class="lang col-md-6 form-group">
+            <input type="text" name="name" key="name" class="lang form-control" id="name" placeholder="Your Name" required>
           </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          <div key="" class="lang col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" key="" class="lang form-control" name="email" id="email" placeholder="Your Email" required>
           </div>
         </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        <div key="" class="lang form-group mt-3">
+          <input type="text" key="" class="lang form-control" name="subject" id="subject" placeholder="Subject" required>
         </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        <div key="" class="lang form-group mt-3">
+          <textarea key="" class="lang form-control" name="message" rows="5" placeholder="Message" required></textarea>
         </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+        <div key="" class="lang my-3">
+          <div key="" class="lang loading">Loading</div>
+          <div key="" class="lang error-message"></div>
+          <div key="" class="lang sent-message">Your message has been sent. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div key="" class="lang text-center"><button type="submit" key="Send Message" class="lang">Send Message</button></div>
       </form>
 
     </div>
